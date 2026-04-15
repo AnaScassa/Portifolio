@@ -284,3 +284,56 @@ h3 {
   color: #fff !important;
   transform: translateY(-2px);
 }
+
+.footer {
+  background: #0f1b61;
+  color: #fff;
+  padding: 60px 0 30px;
+}
+
+.footer-nome {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* INFO */
+.footer-info p {
+  margin: 5px 0;
+}
+
+/* REDES */
+.footer-redes {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.footer-redes a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.footer-redes a:hover {
+  color: #aab4ff;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .footer-redes {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .footer-info {
+    text-align: center;
+  }
+}
