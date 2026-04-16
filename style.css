@@ -337,3 +337,43 @@ h3 {
     text-align: center;
   }
 }
+
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 32px !important;
+  }
+
+  h2 {
+    font-size: 24px !important;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .projeto-card {
+    border-radius: 12px;
+  }
+
+  .projeto-card h5 {
+    font-size: 18px;
+  }
+
+  .btn-github {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .skills img {
+    width: 30px;
+  }
+
+  .navbar span {
+    font-size: 16px;
+  }
+}
